@@ -1,0 +1,82 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.camera.view.PreviewView
+            android:id="@+id/view_finder"
+            android:background="@color/White"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <ImageButton
+            android:id="@+id/ibFlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ibZoomOut"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/orange_circle"
+            android:padding="@dimen/large_padding"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:src="@drawable/ic_baseline_flash_off" />
+
+    <ImageButton
+            android:id="@+id/ibZoomIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:background="@drawable/orange_circle"
+            android:padding="@dimen/large_padding"
+            android:src="@drawable/ic_baseline_zoom_in" />
+
+    <ImageButton
+            android:id="@+id/ibCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/orange_circle"
+            android:padding="@dimen/large_padding"
+            android:src="@drawable/ic_camera" />
+    <ImageButton
+            android:id="@+id/ibZoomOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ibZoomIn"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/orange_circle"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:padding="@dimen/large_padding"
+            android:src="@drawable/ic_baseline_zoom_out" />
+
+    <ImageButton
+            android:id="@+id/ibCameraSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/orange_circle"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:padding="@dimen/large_padding"
+            android:layout_marginStart="@dimen/xxlarge_margin"
+            android:src="@drawable/ic_switch_camera" />
+
+    <ImageButton
+            android:id="@+id/photo_view_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/ic_outer_circle"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:padding="@dimen/large_padding"
+            android:layout_marginEnd="@dimen/xxlarge_margin"
+            android:src="@drawable/ic_photo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

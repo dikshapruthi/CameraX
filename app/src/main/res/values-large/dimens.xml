@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text size -->
+    <dimen name="small_text">18sp</dimen>
+    <dimen name="medium_text">22sp</dimen>
+    <dimen name="normal_text">26sp</dimen>
+    <dimen name="large_text">36sp</dimen>
+    <!-- padding -->
+    <dimen name="xsmall_padding">2dp</dimen>
+    <dimen name="small_padding">6dp</dimen>
+    <dimen name="medium_padding">14dp</dimen>
+    <dimen name="large_padding">16dp</dimen>
+    <dimen name="xxlarge_padding">20dp</dimen>
+
+    <!-- margin -->
+    <dimen name="xsmall_margin">2dp</dimen>
+    <dimen name="small_margin">6dp</dimen>
+    <dimen name="medium_margin">14sp</dimen>
+    <dimen name="xlarge_margin">28dp</dimen>
+    <dimen name="xxlarge_margin">32dp</dimen>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CameraX</string>
+
+    <string name="image_saved">Image Saved</string>
+    <string name="front_camera_is_not_available">Front Camera is not available</string>
+    <string name="front_flash_is_not_available">Front flash is not available</string>
+    <string name="failed_to_load_camera">Failed to load camera</string>
+    <string name="failed_to_capture_photo">Failed to capture photo</string>
+    <string name="could_not_get_storage_location">Couldn\'t get the storage location</string>
+</resources>
